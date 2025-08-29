@@ -98,6 +98,4 @@ app.get("/not-found", (req, res) => {
   res.sendStatus("404");
 });
 
-app.listen(PORT, () => {
-  console.log(`El servidor se está ejecutando en el Puerto: ${PORT}`);
-});
+module.exports = app;
